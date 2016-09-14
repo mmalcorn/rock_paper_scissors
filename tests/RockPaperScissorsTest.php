@@ -114,7 +114,7 @@
           $result = $test_RockPaperScissors->playGame($first_input, $second_input);
 
           //Assert
-          $this->assertEquals("Scissors", $result);
+          $this->assertEquals("Player2", $result);
       }
 
     }
